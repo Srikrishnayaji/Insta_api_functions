@@ -1,8 +1,8 @@
 # Insta_api_functions
 
-Code written: Python
-Library Used: requests
-API used    : Instagram API
+Code written: Python; 
+Library Used: requests; 
+API used    : Instagram API; 
 
 Details about the file insta_api.py.
       The file consists of 2 functions that can be created based on the previlages given by insta api in client mode:
