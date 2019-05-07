@@ -32,6 +32,9 @@ Details about the file insta_api.py.
      1) https://www.instagram.com/developer/ - to register and get access to insta api
      2) https://www.instagram.com/developer/authentication/ - helps you to get the access_token
      
+   # 
+   screenshots of the basic web-app'home page (designed using django) is prsent in the images folder attached.
+     
      
       
      
