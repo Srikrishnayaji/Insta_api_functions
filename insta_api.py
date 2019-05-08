@@ -31,6 +31,7 @@ def get_post_details(url_for_post_details, post_number, post_type):
     no_of_likes = r['data'][post_number]['likes']['count']
     post_link = r['data'][post_number][post_type]['standard_resolution']['url']
     caption = r['data'][post_number]['caption']['text']
+    location = r['data'][post_number]['location']['name']
     post_details = {'post_link':post_link, 'comments_count':no_of_comments, 'likes_count':no_of_likes,
-                          'caption':caption}
+                          'caption':caption, 'location':location}
     return(post_details)
