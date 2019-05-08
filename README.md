@@ -25,6 +25,7 @@ Details about the file insta_api.py.
       v) Location the user has specified 
      All the above mentioned details is returned as dictionary.
      /*The above function has to be specified with the post_number argument, where 0 = latestpost and total_posts-1 = firstpost*/
+     /* The above function has to be specified with post_type argument, whose values can be 1)"images" 2)"videos".*/
      
      The above functions can be used to get an insta user's and his/her posts' details on the condition that "The app created by the user 
      gets approved by instagram and he gets the permission to change from client_mode to live_mode". Also by getting the live mode              permission one gets access to more features of the api.
