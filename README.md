@@ -22,6 +22,7 @@ Details about the file insta_api.py.
      ii) Caption given by the user to the post
     iii) Number of comments for that post
      iv) Number of likes for that post
+      v) Location the user has specified 
      All the above mentioned details is returned as dictionary.
      /*The above function has to be specified with the post_number argument, where 0 = latestpost and total_posts-1 = firstpost*/
      
